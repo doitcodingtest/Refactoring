@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DivergentChange_After/DivergentChange_After.iml" filepath="$PROJECT_DIR$/DivergentChange_After/DivergentChange_After.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DivergentChange_Before/DivergentChange_Before.iml" filepath="$PROJECT_DIR$/DivergentChange_Before/DivergentChange_Before.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Duplicate_After/Duplicate_After.iml" filepath="$PROJECT_DIR$/Duplicate_After/Duplicate_After.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Duplicate_After2/Duplicate_After2.iml" filepath="$PROJECT_DIR$/Duplicate_After2/Duplicate_After2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Duplicate_Before/Duplicate_Before.iml" filepath="$PROJECT_DIR$/Duplicate_Before/Duplicate_Before.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FeatureEnvy_After/FeatureEnvy_After.iml" filepath="$PROJECT_DIR$/FeatureEnvy_After/FeatureEnvy_After.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FeatureEnvy_Before/FeatureEnvy_Before.iml" filepath="$PROJECT_DIR$/FeatureEnvy_Before/FeatureEnvy_Before.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GodClass_After/GodClass_After.iml" filepath="$PROJECT_DIR$/GodClass_After/GodClass_After.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GodClass_After_New/GodClass_After_New.iml" filepath="$PROJECT_DIR$/GodClass_After_New/GodClass_After_New.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GodClass_Before/GodClass_Before.iml" filepath="$PROJECT_DIR$/GodClass_Before/GodClass_Before.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GodClass_Before_New/GodClass_Before_New.iml" filepath="$PROJECT_DIR$/GodClass_Before_New/GodClass_Before_New.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LongMethod_After/LongMethod_After.iml" filepath="$PROJECT_DIR$/LongMethod_After/LongMethod_After.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LongMethod_Before/LongMethod_Before.iml" filepath="$PROJECT_DIR$/LongMethod_Before/LongMethod_Before.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LongParameterList_After/LongParameterList_After.iml" filepath="$PROJECT_DIR$/LongParameterList_After/LongParameterList_After.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LongParameterList_Before/LongParameterList_Before.iml" filepath="$PROJECT_DIR$/LongParameterList_Before/LongParameterList_Before.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MagicNumber_After/MagicNumber_After.iml" filepath="$PROJECT_DIR$/MagicNumber_After/MagicNumber_After.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MagicNumber_Before/MagicNumber_Before.iml" filepath="$PROJECT_DIR$/MagicNumber_Before/MagicNumber_Before.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Refactoring.iml" filepath="$PROJECT_DIR$/Refactoring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShotgunSurgery_After/ShotgunSurgery_After.iml" filepath="$PROJECT_DIR$/ShotgunSurgery_After/ShotgunSurgery_After.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShotgunSurgery_Before/ShotgunSurgery_Before.iml" filepath="$PROJECT_DIR$/ShotgunSurgery_Before/ShotgunSurgery_Before.iml" />
+    </modules>
+  </component>
+</project>
