@@ -8,7 +8,7 @@ public class Refactoring3 {
         Contact contact = new Contact("한국 어딘가", "jk5020kim@naver.com", "010-123-1234");
         User user = new User("김하루", 38, "남자", contact);
         print(user, PrintType.Normal);
-        print(user, PrintType.Json);
+        print(user, PrintType.JSON);
         print(user, PrintType.INFO);
     }
 
@@ -17,7 +17,7 @@ public class Refactoring3 {
             case Normal -> {
                 System.out.println(user.toString());
             }
-            case Json -> {
+            case JSON -> {
                 Gson gson = new Gson();
                 String jsonStr = gson.toJson(user);
                 System.out.println(jsonStr);
@@ -37,7 +37,7 @@ public class Refactoring3 {
     }
 
     public enum PrintType {
-        Normal, Json, INFO
+        Normal, JSON, INFO
     }
 }
 
