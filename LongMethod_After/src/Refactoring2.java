@@ -13,7 +13,7 @@ public class Refactoring2 {
                 System.out.println("대출이 불가능합니다.");
             }
         } else {
-            System.out.println("계정 상태 먼저를 확인하세요.");
+            System.out.println("계좌 상태 먼저를 확인하세요.");
         }
     }
 
