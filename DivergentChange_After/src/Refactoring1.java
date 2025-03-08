@@ -53,7 +53,7 @@ public class Refactoring1 {
     }
 
     private static int vipDiscount(int price) {
-        System.out.println("VIP등급으로 10%할인을 받았습니다.");
+        System.out.println("VIP 등급으로 10%할인을 받았습니다.");
         return (int) (price * 0.1);
     }
 }
