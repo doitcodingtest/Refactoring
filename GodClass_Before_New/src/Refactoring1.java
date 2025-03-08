@@ -100,9 +100,9 @@ class Payment {
             }
         }
         if (isPaymentSuccessful) {
-            System.out.println("결제가 완료되었습니다.");
+            System.out.println("결제가 완료됐습니다.");
         } else {
-            System.out.println("결제가 실패되었습니다.");
+            System.out.println("결제에 실패했습니다.");
         }
     }
 }
