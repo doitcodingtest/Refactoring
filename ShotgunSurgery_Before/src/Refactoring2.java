@@ -3,7 +3,7 @@ public class Refactoring2 {
         UserInfo userInfo = new UserInfo("김하루",20,"남","jk5020kim@naver.com","010-123-1234");
         User user = new User(userInfo);
         int tiketPrice = getMovieTicketPrice(user.getUserInfo().getAge());
-        System.out.println(user.getUserInfo().getName()+"님의 티켓 가격은 "+tiketPrice+"입니다.");
+        System.out.println(user.getUserInfo().getName()+"님의 티켓 가격은 "+tiketPrice+"원입니다.");
     }
 
     private static int getMovieTicketPrice(int age) {

@@ -38,7 +38,7 @@ public class Refactoring1 {
         }
         if(isVIP){
             totalPrice *= 0.9;
-            System.out.println("VIP등급으로 10%할인을 받았습니다.");
+            System.out.println("VIP 등급으로 10%할인을 받았습니다.");
         }
         return totalPrice;
     }

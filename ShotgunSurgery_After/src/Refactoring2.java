@@ -3,11 +3,11 @@ public class Refactoring2 {
 
         User user = new User("김하루", 20, "남", "jk5020kim@naver.com", "010-123-1234");
         int tiketPrice = getMovieTicketPrice(user.getAge());
-        System.out.println(user.getName() + "님의 티켓 가격은 " + tiketPrice + "입니다.");
+        System.out.println(user.getName() + " 님의 티켓 가격은 " + tiketPrice + "원입니다.");
     }
 
     private static int getMovieTicketPrice(int age) {
-        if (age > 19) { //상수화 하기를 해주면 더 좋을 것 같다.
+        if (age > 19) { // 상수화하는 것을 추천
             return 15000;
         }
         return 9000;
