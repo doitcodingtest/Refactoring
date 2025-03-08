@@ -45,7 +45,7 @@ class Card extends Payment {
     @Override
     public void pay() {
         System.out.println("----------------------------------------------");
-        System.out.println("신용카드로" + amount + "원을 지불 진행합니다.");
+        System.out.println("신용카드로" + amount + "원을 지불합니다.");
         if (validateCreditCardNumber()) {
             isPaymentSuccessful = true;
         }
@@ -70,7 +70,7 @@ class SamsungPay extends Card {
     @Override
     public void pay() {
         System.out.println("----------------------------------------------");
-        System.out.println("삼성페이로" + amount + "원을 지불 진행합니다.");
+        System.out.println("삼성페이로" + amount + "원을 지불합니다.");
         boolean isPaymentSuccessful = false;
         if (validateFingerprintData()) {
             if (validateCreditCardNumber()) {
@@ -101,7 +101,7 @@ class AccountTransfer extends Payment {
     @Override
     public void pay() {
         System.out.println("----------------------------------------------");
-        System.out.println("계좌이체로" + amount + "원을 지불 진행합니다.");
+        System.out.println("계좌이체로" + amount + "원을 지불합니다.");
         if (validateAccountNumber()) {
             isPaymentSuccessful = true;
         }
