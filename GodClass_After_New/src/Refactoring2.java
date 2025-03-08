@@ -35,7 +35,7 @@ class NPC {
     }
 
     void jump() {
-        System.out.println(this.name + "가 5의 높이로 점프합니다.");
+        System.out.println(this.name + "가 높이 5만큼 점프합니다.");
     }
 }
 
@@ -66,9 +66,9 @@ class Player {
 
     void jump() {
         if (this.state == "슈퍼") {
-            System.out.println(this.name + "가 슈퍼상태로 10의 높이로 점프합니다.");
+            System.out.println(this.name + "가 슈퍼상태로 높이 10만큼 점프합니다.");
         } else {
-            System.out.println(this.name + "가 5의 높이로 점프합니다.");
+            System.out.println(this.name + "가 높이 5만큼 점프합니다.");
         }
 
     }
