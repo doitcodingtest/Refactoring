@@ -82,7 +82,7 @@ class Payment {
 
     void pay() {
         System.out.println("----------------------------------------------");
-        System.out.println(this.paymentMethod + "결제 수단으로" + amount + "원을 지불 진행합니다.");
+        System.out.println(this.paymentMethod + "결제 수단으로" + amount + "원을 지불합니다.");
         boolean isPaymentSuccessful = false;
         if (this.paymentMethod.equals("Card")) {
             if (validateCreditCardNumber()) {
