@@ -2,7 +2,7 @@ public class Refactoring1 {
     public static void main(String[] args) {
         DeliverySystem deliverySystem = new DeliverySystem(10,6000,8);
         double totalPrice = deliverySystem.getTotalPrice();
-        System.out.println("총 금액은 "+totalPrice+"입니다.");
+        System.out.println("총 금액은 "+totalPrice+"원입니다.");
     }
 }
 
