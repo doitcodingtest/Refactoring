@@ -15,11 +15,11 @@ public class Refactoring2 {
 }
 
 class User {
-    private final String name;
-    private final int age;
-    private final String gender;
-    private final String email;
-    private final String phoneNumber;
+    private String name;
+    private int age;
+    private String gender;
+    private String email;
+    private String phoneNumber;
 
     public User(String name, int age, String gender, String email, String phoneNumber) {
         this.name = name;
