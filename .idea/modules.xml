@@ -11,15 +11,16 @@
       <module fileurl="file://$PROJECT_DIR$/FeatureEnvy_Before/FeatureEnvy_Before.iml" filepath="$PROJECT_DIR$/FeatureEnvy_Before/FeatureEnvy_Before.iml" />
       <module fileurl="file://$PROJECT_DIR$/GodClass_After/GodClass_After.iml" filepath="$PROJECT_DIR$/GodClass_After/GodClass_After.iml" />
       <module fileurl="file://$PROJECT_DIR$/GodClass_After_New/GodClass_After_New.iml" filepath="$PROJECT_DIR$/GodClass_After_New/GodClass_After_New.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GodClass_After_Old/GodClass_After_Old.iml" filepath="$PROJECT_DIR$/GodClass_After_Old/GodClass_After_Old.iml" />
       <module fileurl="file://$PROJECT_DIR$/GodClass_Before/GodClass_Before.iml" filepath="$PROJECT_DIR$/GodClass_Before/GodClass_Before.iml" />
       <module fileurl="file://$PROJECT_DIR$/GodClass_Before_New/GodClass_Before_New.iml" filepath="$PROJECT_DIR$/GodClass_Before_New/GodClass_Before_New.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GodClass_Before_Old/GodClass_Before_Old.iml" filepath="$PROJECT_DIR$/GodClass_Before_Old/GodClass_Before_Old.iml" />
       <module fileurl="file://$PROJECT_DIR$/LongMethod_After/LongMethod_After.iml" filepath="$PROJECT_DIR$/LongMethod_After/LongMethod_After.iml" />
       <module fileurl="file://$PROJECT_DIR$/LongMethod_Before/LongMethod_Before.iml" filepath="$PROJECT_DIR$/LongMethod_Before/LongMethod_Before.iml" />
       <module fileurl="file://$PROJECT_DIR$/LongParameterList_After/LongParameterList_After.iml" filepath="$PROJECT_DIR$/LongParameterList_After/LongParameterList_After.iml" />
       <module fileurl="file://$PROJECT_DIR$/LongParameterList_Before/LongParameterList_Before.iml" filepath="$PROJECT_DIR$/LongParameterList_Before/LongParameterList_Before.iml" />
       <module fileurl="file://$PROJECT_DIR$/MagicNumber_After/MagicNumber_After.iml" filepath="$PROJECT_DIR$/MagicNumber_After/MagicNumber_After.iml" />
       <module fileurl="file://$PROJECT_DIR$/MagicNumber_Before/MagicNumber_Before.iml" filepath="$PROJECT_DIR$/MagicNumber_Before/MagicNumber_Before.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Refactoring.iml" filepath="$PROJECT_DIR$/Refactoring.iml" />
       <module fileurl="file://$PROJECT_DIR$/ShotgunSurgery_After/ShotgunSurgery_After.iml" filepath="$PROJECT_DIR$/ShotgunSurgery_After/ShotgunSurgery_After.iml" />
       <module fileurl="file://$PROJECT_DIR$/ShotgunSurgery_Before/ShotgunSurgery_Before.iml" filepath="$PROJECT_DIR$/ShotgunSurgery_Before/ShotgunSurgery_Before.iml" />
     </modules>
