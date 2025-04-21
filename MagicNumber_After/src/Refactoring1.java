@@ -11,7 +11,7 @@ public class Refactoring1 {
     }
 
     static boolean verificationNickName(String nickName) {
-        if (nickName.length() < MAX_NICKNAME_LENGTH && nickName.length() > MIN_NICKNAME_LENGTH) {
+        if (nickName.length() <= MAX_NICKNAME_LENGTH && nickName.length() >= MIN_NICKNAME_LENGTH) {
             return true;
         }
         return false;

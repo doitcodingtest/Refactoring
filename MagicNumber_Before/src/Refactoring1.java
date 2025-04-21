@@ -9,7 +9,7 @@ public class Refactoring1 {
     }
 
     static boolean verificationNickName(String nickName) {
-        if (nickName.length() < 20 && nickName.length() > 3) {
+        if (nickName.length() <= 20 && nickName.length() >= 3) {
             return true;
         }
         return false;
