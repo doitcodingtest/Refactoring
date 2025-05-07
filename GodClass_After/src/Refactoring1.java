@@ -71,7 +71,6 @@ class SamsungPay extends Card {
     public void pay() {
         System.out.println("----------------------------------------------");
         System.out.println("삼성페이로" + amount + "원을 지불합니다.");
-        boolean isPaymentSuccessful = false;
         if (validateFingerprintData()) {
             if (validateCreditCardNumber()) {
                 isPaymentSuccessful = true;
