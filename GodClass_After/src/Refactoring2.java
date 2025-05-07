@@ -1,25 +1,25 @@
 public class Refactoring2 {
     public static void main(String[] args) {
         Location location = new Location(0, 0);
-        NPC npc = new NPC("하루NPC", location);
+        Character npc = new NPC("하루NPC", location);
         npc.moveForward();
         npc.moveBack();
         npc.jump();
 
-        Player player = new Player("하루플레이어", location);
+        Character player = new Player("하루플레이어", location);
         player.moveForward();
         player.moveBack();
         player.jump();
-        player.setState("슈퍼");
+        ((Player) player).setState("슈퍼");
         player.jump();
     }
 }
 
-class NPC {
+class Character{
     String name;
     Location location;
 
-    public NPC(String name, Location location) {
+    public Character(String name, Location location) {
         this.name = name;
         this.location = location;
     }
@@ -27,48 +27,43 @@ class NPC {
     void moveForward() {
         location.x++;
         System.out.println(this.name + "가 앞으로 이동합니다.");
-    }
 
+    }
     void moveBack() {
         location.x--;
         System.out.println(this.name + "가 뒤로 이동합니다.");
     }
 
     void jump() {
-        System.out.println(this.name + "가 높이 5만큼 점프합니다.");
+        System.out.println(this.name + "가 5의 높이로 점프합니다.");
     }
 }
 
-class Player {
-    String name;
+class NPC extends Character{
+
+    public NPC(String name, Location location) {
+        super(name, location);
+    }
+}
+
+class Player extends Character{
     String state;
-    Location location;
     int HP;
     int MP;
-    public Player(String name, Location location) {
-        this.name = name;
-        this.location = location;
-    }
 
+    public Player(String name, Location location) {
+        super(name, location);
+        this.state = "일반";
+    }
     public void setState(String state) {
         this.state = state;
     }
-
-    void moveForward() {
-        location.x++;
-        System.out.println(this.name + "가 앞으로 이동합니다.");
-    }
-
-    void moveBack() {
-        location.x--;
-        System.out.println(this.name + "가 뒤로 이동합니다.");
-    }
-
+    @Override
     void jump() {
-        if (this.state == "슈퍼") {
-            System.out.println(this.name + "가 슈퍼상태로 높이 10만큼 점프합니다.");
+        if (this.state.equals("슈퍼")) {
+            System.out.println(this.name + "가 슈퍼상태로 10의 높이로 점프합니다.");
         } else {
-            System.out.println(this.name + "가 높이 5만큼 점프합니다.");
+            System.out.println(this.name + "가 5의 높이로 점프합니다.");
         }
 
     }

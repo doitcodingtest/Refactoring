@@ -48,6 +48,7 @@ class Player {
     public Player(String name, Location location) {
         this.name = name;
         this.location = location;
+        this.state = "일반";
     }
 
     public void setState(String state) {
@@ -65,7 +66,7 @@ class Player {
     }
 
     void jump() {
-        if (this.state == "슈퍼") {
+        if (this.state.equals( "슈퍼")) {
             System.out.println(this.name + "가 슈퍼상태로 높이 10만큼 점프합니다.");
         } else {
             System.out.println(this.name + "가 높이 5만큼 점프합니다.");
