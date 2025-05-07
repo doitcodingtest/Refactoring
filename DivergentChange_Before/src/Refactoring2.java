@@ -1,14 +1,14 @@
 public class Refactoring2 {
     public static void main(String[] args) {
         Computer computer = new Computer();
-        computer.moniterTurnOn();
+        computer.monitorTurnOn();
         computer.checkMouseBattery();
         computer.setKeyboardInputMode();
     }
 }
 
 class Computer {
-    public void moniterTurnOn() {
+    public void monitorTurnOn() {
         System.out.println("모니터 전원을 켭니다.");
     }
 

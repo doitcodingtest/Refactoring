@@ -48,7 +48,9 @@ public class Refactoring1 {
             deliveryPrice += deliverDistance * 10;
             System.out.println("3만원 미만 주문으로 배송비 " + deliveryPrice + "원이 추가 됩니다.");
         }
-        System.out.println("3만원 이상 주문으로 배송비는 무료입니다.");
+        else{
+            System.out.println("3만원 이상 주문으로 배송비는 무료입니다.");
+        }
         return deliveryPrice;
     }
 
